@@ -113,3 +113,5 @@ class ArquivoPersistencia(Persistencia):
 class DBPersistencia(Persistencia):
     def __init__(self, tipo):
         super().__init__(tipo)
+        
+    
